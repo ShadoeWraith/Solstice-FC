@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'MedievalSharp', cursive;
+}
+
+:root {
+  --secondary-clr: #ab0707;
+  --primary-clr: #292929;
+  --tertiary-clr: #ffc933;
+  --accent-clr: #f79d36;
+  --text-clr: #ffdda1;
+}
+
+body {
+  background-color: var(--primary-clr);
+  color: var(--text-clr);
+}
+
+a {
+  text-decoration: none;
+}
